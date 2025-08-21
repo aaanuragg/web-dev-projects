@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #faefe5;
+    color: #3a2c26;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #fff9f4;
+    box-shadow: 0 2px 8px rgba(80,60,40,0.08);
+    padding: 32px 0 16px 0;
+    text-align: center;
+}
+.brand-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #634932;
+    margin-bottom: 10px;
+}
+.tagline {
+    font-size: 1.25rem;
+    color: #b08d66;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+main {
+    max-width: 580px;
+    margin: 36px auto;
+    padding: 32px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px 0 rgba(90,73,45,0.08);
+}
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 22px;
+    color: #7a542b;
+    font-weight: 700;
+}
+.offer-list {
+    margin: 0 0 32px 0;
+    padding: 0;
+    list-style: none;
+}
+.offer-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 23px;
+    background: #ffeede;
+    border-radius: 12px;
+    padding: 18px 18px 12px 16px;
+    box-shadow: 0 1px 6px rgba(110,70,40,0.06);
+}
+.offer-icon {
+    font-size: 2.2rem;
+    margin-right: 14px;
+}
+.offer-content {
+    flex: 1;
+}
+.offer-title {
+    font-weight: 700;
+    font-size: 1.12rem;
+    letter-spacing: 0.2px;
+    color: #5c3f1d;
+}
+.offer-desc {
+    margin: 3px 0 8px 0;
+    color: #654633;
+}
+.offer-price {
+    font-size: 1rem;
+    color: #d5852b;
+    font-weight: 600;
+}
+.feature-vision-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 28px;
+}
+.feature, .vision {
+    flex: 1 1 240px;
+}
+.feature-title, .vision-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: #895b2b;
+    margin-bottom: 9px;
+    font-weight: 600;
+}
+.feature-list {
+    padding-left: 20px;
+}
+.feature-list li {
+    margin-bottom: 7px;
+    font-size: 1.02rem;
+}
+.vision-text {
+    font-size: 1.03rem;
+    color: #644028;
+}
+.contact {
+    background: #fff5e6;
+    border-radius: 11px;
+    padding: 18px 20px;
+    text-align: center;
+}
+.contact-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #a05d25;
+    font-size: 1.11rem;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.contact-info {
+    font-size: 1.03rem;
+    margin-bottom: 4px;
+    color: #502c10;
+}
+.contact-info a {
+    color: #c87c22;
+    text-decoration: none;
+    word-break: break-all;
+}
+@media (max-width: 700px) {
+    main {
+        padding: 16px;
+        margin: 18px 7px;
+    }
+    .feature-vision-wrap {
+        flex-direction: column;
+        gap: 18px;
+    }
+}
